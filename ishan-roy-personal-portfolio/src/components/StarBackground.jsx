@@ -68,7 +68,7 @@ export const StarBackground = () => {
         }}/>
     ))}
     
-        {meteors.map((meteor) => {
+        {meteors.map((meteor) => (
         <div 
         key={meteor.id} 
         className="meteor animate-meteor" 
@@ -81,7 +81,7 @@ export const StarBackground = () => {
             animationDuration: meteor.animationDuration + "s",
             position: "absolute"
         }}/>
-    })}
+    ))}
     
     </div>
 )};
