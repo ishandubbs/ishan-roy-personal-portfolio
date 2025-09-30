@@ -5,7 +5,7 @@ import { Menu } from "lucide-react";
 import { href } from "react-router-dom"
 
 const navItems = [
-    {name: "Home", href: "#home"},
+    {name: "Home", href: "#hero"},
     {name: "About", href: "#about"},
     {name: "Experience", href: "#experience"},
     {name: "Projects", href: "#projects"},
@@ -29,7 +29,7 @@ export const Navbar = () => {
     return (
     <nav className={cn("fixed w-full z-40 transition-all duration-300", isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5")}>
         <div className="container flex items-center justify-between">
-            <a className="text-xl font-bold text-primary flex items-center" href="#home">
+            <a className="text-xl font-bold text-primary flex items-center" href="#hero">
                 <span className="relative z-10">
                     <span className="text-glow text-foreground"> Ishan Roy </span> Portfolio
                 </span>
