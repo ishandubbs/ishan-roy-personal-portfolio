@@ -27,6 +27,15 @@ const projects = [
         tags: ["React", "JavaScript", "HTML/CSS"],
         githubURL: "https://github.com/ishandubbs/sidetube"
     },
+
+    {
+        id: 4,
+        title: "Flappy Bird AI",
+        description: "AI Flappy Bird.",
+        image: "/projects/project4.png",
+        tags: ["Python", "NEAT", "Pygame"],
+        githubURL: "https://github.com/ishandubbs/flappy_bird"
+    }
 ]
 
 export const ProjectsSection = () => {
