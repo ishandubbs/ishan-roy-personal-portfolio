@@ -55,7 +55,9 @@ export const StarBackground = () => {
             setMeteors(newMeteors)
         }
     return (
-    <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+    <div className="fixed inset-0 overflow-hidden pointer-events-none z-50">
+          <div className="absolute w-2 h-2 rounded-full bg-black" style={{ top: "50%", left: "50%" }} />
+
         {stars.map((star) => (
         <div key={star.id} className="star animate-pulse-subtle" style={{
             width: star.size + "px",
