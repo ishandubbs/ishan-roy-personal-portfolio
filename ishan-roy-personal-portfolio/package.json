@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "vercel-build": "npm ci && npm run build",
   "dependencies": {
     "@radix-ui/react-toast": "^1.2.15",
     "@tailwindcss/vite": "^4.1.13",
