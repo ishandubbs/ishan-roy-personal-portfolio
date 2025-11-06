@@ -1,5 +1,5 @@
 import { useState } from "react"
-import {cn} from '../lib/utils'
+import {cn} from '@/lib/utils'
 import pythonIcon from "../icons/python.png"
 import javascriptIcon from "../icons/JavaScript-logo.png"
 import htmlIcon from "../icons/html.png"
