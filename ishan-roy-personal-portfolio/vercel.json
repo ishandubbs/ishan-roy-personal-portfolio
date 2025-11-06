@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --include=dev",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "build": {
+    "env": {
+      "NODE_VERSION": "18"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
