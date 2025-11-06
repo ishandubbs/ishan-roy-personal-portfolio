@@ -1,5 +1,4 @@
 {
-  {
   "name": "ishan-roy-personal-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -24,5 +23,9 @@
   },
   "devDependencies": {
     "vite": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
+
